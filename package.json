@@ -1,0 +1,22 @@
+{
+  "name": "dadbot",
+  "version": "1.0.0",
+  "description": "Hi Discord, I'm Dad!",
+  "main": "bot.js",
+  "dependencies": {
+    "discord.io": "^2.5.3",
+    "discord.js": "^11.4.2",
+    "express": "^4.17.1",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "bot",
+    "discord"
+  ],
+  "author": "Simp",
+  "license": "ISC"
+}
