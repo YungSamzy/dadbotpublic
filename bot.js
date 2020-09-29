@@ -59,7 +59,7 @@ client.user.setPresence({
 		if (message.author.bot) return;
 		let str = message.content;
 		if (str.includes("made you")){
-		message.channel.send(`<@642891240529985539> made me! Check out my guts at [link]!`);
+		message.channel.send(`<@642891240529985539> made me! Check out my guts at https://github.com/YungSamzy/dadbotpublic!`);
 		}
 		if (str.includes("tell") && str.includes("joke")){
 		var options = {
