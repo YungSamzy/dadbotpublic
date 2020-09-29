@@ -61,6 +61,9 @@ client.user.setPresence({
 		if (str.includes("made you")){
 		message.channel.send(`<@642891240529985539> made me! Check out my guts at https://github.com/YungSamzy/dadbotpublic!`);
 		}
+		if (str.includes("who are you")){
+		message.channel.send(`I'm a Discord bot made by <@642891240529985539>! I'm pretty much just a joke! If you want to see how I run check out my guts athttps://github.com/YungSamzy/dadbotpublic!`);
+		}
 		if (str.includes("tell") && str.includes("joke")){
 		var options = {
 			url: 'https://icanhazdadjoke.com/',
